@@ -1,21 +1,17 @@
 {
   "name": "medical-care-ai",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16",
     "vite": "^6.0.3"
   },
-  "dependencies": {
-    "@clerk/clerk-js": "^5.42.1",
-    "dotenv": "^16.4.7"
-  }
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module"
 }

@@ -4,7 +4,6 @@ import renderChatbot from './components/chatbot.js';
 
 const app = document.getElementById('app');
 const themeToggle = document.getElementById('themeToggle');
-
 // Theme toggle logic
 themeToggle.addEventListener('click', () => {
   document.documentElement.classList.toggle('dark');
@@ -21,3 +20,5 @@ function navigate(route) {
 
 // Initialize
 navigate();
+
+

@@ -3,31 +3,78 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <link rel="icon" type="image/svg+xml" href="./src/assets/logo.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content=" html,css, js, echocare, metalhelthcare, medicalcare , ai, ai chatbot, medicalcare, ai chatbot, medicalcareai " name="keywords">
+  <meta content=" A ai trained mentalhealth care chatting Echo Care  " name="description">
+  <meta name="author" content="sumangal karan">
+  
+  <!-- Open Graph meta tags for better social sharing -->
+  <meta property="og:title" content="Echo Care">
+   <meta property="og:description" content="A ai trained mentalhealth care chatting Echo Care">
+  <meta property="og:image" content="https://example.com/image.jpg">
+  <meta property="og:url" content="https://medical-care-ai.netlify.app/">
+  <meta property="og:type" content="website">
+
+
+  <link rel="canonical" href="https://medical-care-ai.netlify.app/">
+
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+ 
   <title>Echo Care</title>
 </head>
+<body class="bg-gray-100 dark:bg-zinc-800 text-gray-800 dark:text-gray-200 transition-colors max-h-[400px] overflow-y-auto
+[&::-webkit-scrollbar]:w-2
+[&::-webkit-scrollbar-track]:rounded-full
+[&::-webkit-scrollbar-track]:bg-gray-100
+[&::-webkit-scrollbar-thumb]:rounded-full
+[&::-webkit-scrollbar-thumb]:bg-gray-300
+dark:[&::-webkit-scrollbar-track]:bg-neutral-700
+dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+<nav class="bg-white border-b-2 dark:border-zinc-900 dark:bg-zinc-800 fixed w-full ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="./src/assets/logo.svg" class="h-8" alt="Flowbite Logo" />
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Echo Care</span>
+  </a>
+  <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <button type="button" class="flex text-sm bg-zinc-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+        <span class="sr-only">Open user menu</span>
+        <img class="w-8 h-8 rounded-full" src="https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="user photo">
+      </button>
+      <!-- Dropdown menu -->
+      <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-zinc-800 dark:divide-gray-600" id="user-dropdown">
+        <div class="px-4 py-3">
+          <span class="block text-sm text-zinc-900 dark:text-white">Bonnie Green</span>
+          <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+        </div>
+        <ul class="py-2" aria-labelledby="user-menu-button">
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:text-gray-200 dark:hover:text-white">Settings</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+          </li>
+        </ul>
+      </div>
+      <button id="themeToggle" class="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-200 px-2 py-2 rounded-md ml-4">
+        🌙
+</button>
 
-<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors">
-  <header class="w-full bg-white dark:bg-gray-800 shadow p-4 flex justify-between items-center">
-    <a href="/" class="flex items-center"> <img src="./src/assets/logo.svg" alt="Echo Care Logo"
-        class="h-12 w-12 rounded-full">
-      <h1 class="text-lg font-bold">Echo Care</h1>
-
-    </a>
-    <button id="themeToggle" class="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-200 px-3 py-2 rounded-md">
-      🌙
-    </button>
-  </header>
-  <div id="app" class="min-h-screen flex flex-col items-center justify-center">
-    <!-- Dynamic components load here -->
-
-
+</nav>
+  <div id="app" class="w-full h-screen flex flex-col items-center justify-center">
 
   </div>
-  <footer class="w-full bg-white dark:bg-gray-800 text-center py-4">
+  <footer class="w-full bg-white border-t-2  dark:border-zinc-900 dark:bg-zinc-800 text-center py-4">
     <p class="text-sm">&copy; 2024Echo Care. All rights reserved.</p>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
   <script type="module" src="/src/main.js"></script>
 </body>
 
